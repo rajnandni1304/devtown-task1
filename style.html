@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+  
+    <script src=
+"https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+      
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity=
+"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous">
+    </script>
+      
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity=
+"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+    </script>
+</head>
+  
+<body style="text-align: center; background-color: lightpink;">
+    <nav class="navbar navbar-expand-lg
+                navbar-light bg-success">
+        <a class="navbar-brand" href="#">
+           
+  
+        </a>
+    </nav>
+  
+    <div class="container my-3">
+        <h1 style="font-size: 60px; ">Take your Notes here</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5  class="card-title" style="font-size: 50px; text-align: left;  "> 
+                    Add a Note
+                  </h5>
+                <div class="form-group">
+                    <textarea class="form-control"
+                        id="addTxt" rows="30" cols="150" >
+                    </textarea>
+                </div><br><br><br>
+                <button class="btn btn-primary"
+                    id="addBtn" style=
+                    "background-color:green; font-size: 50px;">
+                    Add Note
+                </button>
+            </div>
+        </div><br><br><br>
+        <hr style="border-color: aqua; border-radius: 100px;">
+        <h1 style="font-size: 40px;">Your Notes</h1>
+        <hr style="border-color: aqua; border-radius: 100px;">
+          
+        <div id="notes" class=
+            "row container-fluid">
+        </div>
+    </div>
+    
+  
+    <script src="style.js"></script>
+</body>
+  
+</html>
